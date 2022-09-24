@@ -6,4 +6,8 @@ class Controller1 extends GetxController {
     count++;
     update();
   }
+  void decrement() {
+    count--;
+    update();
+  }
 }
